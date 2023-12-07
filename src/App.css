@@ -1,0 +1,72 @@
+main{
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: url("/public/bg.jpg")center center/cover no-repeat;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.circular-progress {
+  position: relative;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid white;
+
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+h4{
+  font-size: 70px;
+  color: white;
+}
+.controls{
+  display: flex;
+  gap: 15px;
+}
+span{
+  color: white;
+  width: 70px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  border: 1px solid white;
+  background: transparent;
+  font-size: 12px;
+  margin-top:10px ;
+  margin-bottom: 20px;
+}
+button{
+  border-radius: 50%;
+  border: 1px solid white;
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+button:hover{
+  background:rgba(255, 255, 255, 0.418);
+}
